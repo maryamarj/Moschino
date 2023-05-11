@@ -15,15 +15,197 @@ viewer = pannellum.viewer('panorama', {
         "Entrance": {
             "title": "Entrance",
             "cssClass": "title-background-color",
-            "hfov": 500,
-            "pitch": 0,
-            "yaw": 110,
+            "hfov": 700,
+            "pitch": 8,
+            "yaw": -113, //(da dx a sx)
             "type": "equirectangular",
             // "panorama": api_endpoint + "/" + room_name ,
-            "panorama": api_endpoint + "/Entrance"
+            "panorama": api_endpoint + "/Entrance",
+            "hotSpots": [
+                {
+                    "cssClass": "custom-hotspot-component",
+                    "pitch": -20,
+                    "yaw": -163,
+                    "type": "scene",
+                    "text": "Get closer to the shop window",
+                    "sceneId": "ShopWindowSX",
+                },
+                {
+                    "cssClass": "custom-hotspot-component",
+                    "pitch": -14,
+                    "yaw": -51,
+                    "type": "scene",
+                    "text": "Get closer to the shop window",
+                    "sceneId": "ShopWindowDX",
+                },
+                {
+                    "cssClass": "custom-hotspot-component",
+                    "pitch": -8,
+                    "yaw": -37,
+                    "type": "scene",
+                    "text": "Get closer to the shop window",
+                    "sceneId": "ShopWindowExtraDX",
+                },
+                {
+                    "cssClass": "custom-hotspot-component",
+                    "pitch": -3,
+                    "yaw": -113,
+                    "type": "scene",
+                    "text": "Enter the shop",
+                    "sceneId": "Space1",
+                },
+            ]
+        },
+        "ShopWindowSX": {
+            "title": "Shop window",
+            "cssClass": "title-background-color",
+            "hfov": 100,
+            "pitch": 8,
+            "yaw": -30, //(da dx a sx)
+            "type": "equirectangular",
+            // "panorama": api_endpoint + "/" + room_name ,
+            "panorama": api_endpoint + "/ShopWindowSX",
+            "hotSpots": [
+                {
+                    "cssClass": "custom-hotspot-component",
+                    "pitch": -25,
+                    "yaw": 15,
+                    "type": "scene",
+                    "text": "Go back to the first view",
+                    "sceneId": "Entrance",
+                },
+                {
+                    "cssClass": "custom-hotspot-component",
+                    "pitch": -10,
+                    "yaw": 30,
+                    "type": "scene",
+                    "text": "Get closer to the shop window",
+                    "sceneId": "ShopWindowDX",
+                },
+                {
+                    "cssClass": "custom-hotspot-component",
+                    "pitch": -7,
+                    "yaw": 39,
+                    "type": "scene",
+                    "text": "Get closer to the shop window",
+                    "sceneId": "ShopWindowExtraDX",
+                },
+            ]
+        },
+        "ShopWindowDX": {
+            "title": "Shop window",
+            "cssClass": "title-background-color",
+            "hfov": 100,
+            "pitch": 10,
+            "yaw": -93, //(da dx a sx)
+            "type": "equirectangular",
+            // "panorama": api_endpoint + "/" + room_name ,
+            "panorama": api_endpoint + "/ShopWindowDX",
+            "hotSpots": [
+                {
+                    "cssClass": "custom-hotspot-component",
+                    "pitch": -18,
+                    "yaw": -150,
+                    "type": "scene",
+                    "text": "Go back to the first view",
+                    "sceneId": "Entrance",
+                },
+                {
+                    "cssClass": "custom-hotspot-component",
+                    "pitch": -12,
+                    "yaw": -35,
+                    "type": "scene",
+                    "text": "Get closer to the shop window",
+                    "sceneId": "ShopWindowExtraDX",
+                },
+                {
+                    "cssClass": "custom-hotspot-component",
+                    "pitch": -9,
+                    "yaw": -157,
+                    "type": "scene",
+                    "text": "Go back to the shop window",
+                    "sceneId": "ShopWindowSX",
+                },
+            ]
+        },
+        "ShopWindowExtraDX": {
+            "title": "Shop window",
+            "cssClass": "title-background-color",
+            "hfov": 100,
+            "pitch": 8,
+            "yaw": -100, //(da dx a sx)
+            "type": "equirectangular",
+            // "panorama": api_endpoint + "/" + room_name ,
+            "panorama": api_endpoint + "/ShopWindowExtraDX",
+            "hotSpots": [
+                {
+                    "cssClass": "custom-hotspot-component",
+                    "pitch": -11,
+                    "yaw": -175,
+                    "type": "scene",
+                    "text": "Go back to the first view",
+                    "sceneId": "Entrance",
+                },
+                {
+                    "cssClass": "custom-hotspot-component",
+                    "pitch": -12,
+                    "yaw": -160,
+                    "type": "scene",
+                    "text": "Get closer to the shop window",
+                    "sceneId": "ShopWindowDX",
+                },
+                {
+                    "cssClass": "custom-hotspot-component",
+                    "pitch": -8,
+                    "yaw": -180,
+                    "type": "scene",
+                    "text": "Get closer to the shop window",
+                    "sceneId": "ShopWindowSX",
+                },
+            ]
+        },
+        "Space1": {
+            "title": "Space1",
+            "cssClass": "title-background-color",
+            "hfov": 500,
+            "pitch": 0,
+            "yaw": 130, //(da dx a sx)
+            "type": "equirectangular",
+            // "panorama": api_endpoint + "/" + room_name ,
+            "panorama": api_endpoint + "/Space1",
+            "hotSpots": [
+                {
+                    "cssClass": "custom-hotspot-component",
+                    "pitch": -25,
+                    "yaw": 73,
+                    "type": "scene",
+                    "text": "Go back to the first view",
+                    "sceneId": "Space2",
+                },
+            ]
+        },
+        "Space2": {
+            "title": "Space2",
+            "cssClass": "title-background-color",
+            "hfov": 100,
+            "pitch": 0,
+            "yaw": 160, //(da dx a sx)
+            "type": "equirectangular",
+            // "panorama": api_endpoint + "/" + room_name ,
+            "panorama": api_endpoint + "/Space2",
+            "hotSpots": [
+                {
+                    "cssClass": "custom-hotspot-component",
+                    "pitch": -25,
+                    "yaw": 73,
+                    "type": "scene",
+                    "text": "Go back to the first view",
+                    "sceneId": "Space2",
+                },
+            ]
+        },
         }
     }
-}
 )    
 
 document.getElementById('pan-up').addEventListener('click', function(e) {
