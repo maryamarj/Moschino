@@ -169,7 +169,7 @@ viewer = pannellum.viewer('panorama', {
             "cssClass": "title-background-color",
             "hfov": 500,
             "pitch": 0,
-            "yaw": 130, //(da dx a sx)
+            "yaw": 100, //(da dx a sx)
             "type": "equirectangular",
             // "panorama": api_endpoint + "/" + room_name ,
             "panorama": api_endpoint + "/Space1",
@@ -179,7 +179,7 @@ viewer = pannellum.viewer('panorama', {
                     "pitch": -25,
                     "yaw": 73,
                     "type": "scene",
-                    "text": "Go back to the first view",
+                    "text": "Go to Space2",
                     "sceneId": "Space2",
                 },
             ]
@@ -187,8 +187,8 @@ viewer = pannellum.viewer('panorama', {
         "Space2": {
             "title": "Space2",
             "cssClass": "title-background-color",
-            "hfov": 100,
-            "pitch": 0,
+            "hfov": 300,
+            "pitch": -5,
             "yaw": 160, //(da dx a sx)
             "type": "equirectangular",
             // "panorama": api_endpoint + "/" + room_name ,
@@ -196,11 +196,55 @@ viewer = pannellum.viewer('panorama', {
             "hotSpots": [
                 {
                     "cssClass": "custom-hotspot-component",
-                    "pitch": -25,
-                    "yaw": 73,
+                    "pitch": -32,
+                    "yaw": -9,
                     "type": "scene",
-                    "text": "Go back to the first view",
+                    "text": "Go back to Space1",
+                    "sceneId": "Space1",
+                },
+                {
+                    "cssClass": "custom-hotspot-component",
+                    "pitch": -30,
+                    "yaw": -160,
+                    "type": "scene",
+                    "text": "Go to Space3",
+                    "sceneId": "Space3",
+                },
+            ]
+        },
+        "Space3": {
+            "title": "Space3",
+            "cssClass": "title-background-color",
+            "hfov": 300,
+            "pitch": -5,
+            "yaw": -100, //(da dx a sx)
+            "type": "equirectangular",
+            // "panorama": api_endpoint + "/" + room_name ,
+            "panorama": api_endpoint + "/Space3",
+            "hotSpots": [
+                {
+                    "cssClass": "custom-hotspot-component",
+                    "pitch": -15,
+                    "yaw": -173,
+                    "type": "scene",
+                    "text": "Go back to Space2",
                     "sceneId": "Space2",
+                },
+                {
+                    "cssClass": "custom-hotspot-component",
+                    "pitch": -18,
+                    "yaw": 147,
+                    "type": "scene",
+                    "text": "Go back to Space1",
+                    "sceneId": "Space1",
+                },
+                {
+                    "cssClass": "custom-hotspot-component",
+                    "pitch": -5,
+                    "yaw": 155,
+                    "type": "scene",
+                    "text": "Go outside",
+                    "sceneId": "Entrance",
                 },
             ]
         },
