@@ -248,40 +248,7 @@ viewer = pannellum.viewer('panorama', {
                 },
             ]
         },
-        "Space4": {
-            "title": "Space4",
-            "cssClass": "title-background-color",
-            "hfov": 300,
-            "pitch": -5,
-            "yaw": 80, //(da dx a sx)
-            "type": "equirectangular",
-            // "panorama": api_endpoint + "/" + room_name ,
-            "panorama": api_endpoint + "/Space4",
-            "hotSpots": [
-                {
-                    "cssClass": "custom-hotspot-component",
-                    "pitch": -15,
-                    "yaw": -173,
-                    "type": "scene",
-                    "text": "Go back to Space3",
-                    "sceneId": "Space3",
-                },
-                {
-                    "cssClass": "custom-hotspot-component",
-                    "pitch": -18,
-                    "yaw": 147,
-                    "type": "scene",
-                    "text": "Go back to Space2",
-                    "sceneId": "Space1",
-                },
-                {
-                    "cssClass": "custom-hotspot-component",
-                    "pitch": -5,
-                    "yaw": 155,
-                    "type": "scene",
-                    "text": "Go Go back to Space1",
-                    "sceneId": "Space1",
-                },
+       
         }
     }
 )    
