@@ -176,12 +176,20 @@ viewer = pannellum.viewer('panorama', {
             "hotSpots": [
                 {
                     "cssClass": "custom-hotspot-component",
+                    "pitch": -40,
+                    "yaw": -60,
+                    "type": "scene",
+                    "text": "Go outside",
+                    "sceneId": "Entrance",
+                },
+                {
+                    "cssClass": "custom-hotspot-component",
                     "pitch": -25,
                     "yaw": 73,
                     "type": "scene",
                     "text": "Go to Space2",
-                    "sceneId": "Space2",
-                },
+                    "sceneId": "Space2", 
+                }
             ]
         },
         "Space2": {
