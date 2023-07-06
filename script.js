@@ -301,7 +301,7 @@ viewer = pannellum.viewer('panorama', {
                 {
                     "cssClass": "custom-hotspot-component",
                     "pitch": -20,
-                    "yaw": 35,
+                    "yaw": 50,
                     "type": "scene",
                     "text": "Go to Space5",
                     "sceneId": "Space5", 
@@ -321,7 +321,7 @@ viewer = pannellum.viewer('panorama', {
             "cssClass": "title-background-color",
             "hfov": 300,
             "pitch": -5,
-            "yaw": -80, //(da dx a sx)
+            "yaw": 110, //(da dx a sx)
             "type": "equirectangular",
             // "panorama": api_endpoint + "/" + room_name ,
             "panorama": api_endpoint + "/Space5",
@@ -349,7 +349,7 @@ viewer = pannellum.viewer('panorama', {
             "cssClass": "title-background-color",
             "hfov": 300,
             "pitch": -5,
-            "yaw": -80, //(da dx a sx)
+            "yaw": 118, //(da dx a sx)
             "type": "equirectangular",
             // "panorama": api_endpoint + "/" + room_name ,
             "panorama": api_endpoint + "/Space6",
@@ -377,7 +377,7 @@ viewer = pannellum.viewer('panorama', {
             "cssClass": "title-background-color",
             "hfov": 300,
             "pitch": -5,
-            "yaw": -80, //(da dx a sx)
+            "yaw": 110, //(da dx a sx)
             "type": "equirectangular",
             // "panorama": api_endpoint + "/" + room_name ,
             "panorama": api_endpoint + "/Space7", 
@@ -405,7 +405,7 @@ viewer = pannellum.viewer('panorama', {
             "cssClass": "title-background-color",
             "hfov": 300,
             "pitch": -5,
-            "yaw": -80, //(da dx a sx)
+            "yaw": -170, //(da dx a sx)
             "type": "equirectangular",
             // "panorama": api_endpoint + "/" + room_name ,
             "panorama": api_endpoint + "/Space8", 
@@ -433,7 +433,7 @@ viewer = pannellum.viewer('panorama', {
             "cssClass": "title-background-color",
             "hfov": 300,
             "pitch": -5,
-            "yaw": -80, //(da dx a sx)
+            "yaw": -20, //(da dx a sx)
             "type": "equirectangular",
             // "panorama": api_endpoint + "/" + room_name ,
             "panorama": api_endpoint + "/Space9", 
@@ -461,7 +461,7 @@ viewer = pannellum.viewer('panorama', {
             "cssClass": "title-background-color",
             "hfov": 300,
             "pitch": -5,
-            "yaw": -80, //(da dx a sx)
+            "yaw": 50, //(da dx a sx)
             "type": "equirectangular",
             // "panorama": api_endpoint + "/" + room_name ,
             "panorama": api_endpoint + "/Space10" ,
@@ -497,7 +497,7 @@ viewer = pannellum.viewer('panorama', {
             "cssClass": "title-background-color",
             "hfov": 300,
             "pitch": -5,
-            "yaw": -80, //(da dx a sx)
+            "yaw": 20, //(da dx a sx)
             "type": "equirectangular",
             // "panorama": api_endpoint + "/" + room_name ,
             "panorama": api_endpoint + "/Space11" ,
@@ -533,7 +533,7 @@ viewer = pannellum.viewer('panorama', {
             "cssClass": "title-background-color",
             "hfov": 300,
             "pitch": -5,
-            "yaw": -80, //(da dx a sx)
+            "yaw": 55, //(da dx a sx)
             "type": "equirectangular",
             // "panorama": api_endpoint + "/" + room_name ,
             "panorama": api_endpoint + "/Space13" ,
@@ -561,7 +561,7 @@ viewer = pannellum.viewer('panorama', {
             "cssClass": "title-background-color",
             "hfov": 300,
             "pitch": -5,
-            "yaw": -80, //(da dx a sx)
+            "yaw": -10, //(da dx a sx)
             "type": "equirectangular",
             // "panorama": api_endpoint + "/" + room_name ,
             "panorama": api_endpoint + "/Space12",
