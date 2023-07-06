@@ -305,6 +305,14 @@ viewer = pannellum.viewer('panorama', {
                     "type": "scene",
                     "text": "Go to Space5",
                     "sceneId": "Space5", 
+                },
+                {
+                    "cssClass": "custom-hotspot-component",
+                    "pitch": -10,
+                    "yaw": 115,
+                    "type": "scene",
+                    "text": "Go to Space10",
+                    "sceneId": "Space10", 
                 }
             ]
         },
@@ -473,6 +481,14 @@ viewer = pannellum.viewer('panorama', {
                     "type": "scene",
                     "text": "Go to Space11",
                     "sceneId": "Space11",
+                },
+                {
+                    "cssClass": "custom-hotspot-component",
+                    "pitch": -10,
+                    "yaw": -110,
+                    "type": "scene",
+                    "text": "Go to Space4",
+                    "sceneId": "Space4",
                 }
             ]
         },
