@@ -317,6 +317,62 @@ viewer = pannellum.viewer('panorama', {
                     "type": "scene",
                     "text": "Go back to Space4",
                     "sceneId": "Space4", 
+                },
+                {
+                    "cssClass": "custom-hotspot-component",
+                    "pitch": -13,
+                    "yaw": 155,
+                    "type": "scene",
+                    "text": "Go  to Space6",
+                    "sceneId": "Space6",   
+                }
+            ]
+        },
+        "Space6": {
+            "title": "Space6",
+            "cssClass": "title-background-color",
+            "hfov": 300,
+            "pitch": -5,
+            "yaw": -80, //(da dx a sx)
+            "type": "equirectangular",
+            // "panorama": api_endpoint + "/" + room_name ,
+            "panorama": api_endpoint + "/Space6",
+            "hotSpots": [
+                {
+                    "cssClass": "custom-hotspot-component",
+                    "pitch": -16,
+                    "yaw": 28,
+                    "type": "scene",
+                    "text": "Go back to Space5",
+                    "sceneId": "Space5",   
+                },
+                {
+                    "cssClass": "custom-hotspot-component",
+                    "pitch": -20,
+                    "yaw": -165,
+                    "type": "scene",
+                    "text": "Go to Space7",
+                    "sceneId": "Space7",
+                }
+            ]
+        },
+        "Space7": {
+            "title": "Space7",
+            "cssClass": "title-background-color",
+            "hfov": 300,
+            "pitch": -5,
+            "yaw": -80, //(da dx a sx)
+            "type": "equirectangular",
+            // "panorama": api_endpoint + "/" + room_name ,
+            "panorama": api_endpoint + "/Space7", 
+            "hotSpots": [
+                {
+                    "cssClass": "custom-hotspot-component",
+                    "pitch": -25,
+                    "yaw": 26,
+                    "type": "scene",
+                    "text": "Go back to Space6",
+                    "sceneId": "Space6",  
                 }
             ]
         }
