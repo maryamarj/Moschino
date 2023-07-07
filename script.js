@@ -632,7 +632,7 @@ viewer = pannellum.viewer('panorama', {
                 },
                 {
                     "cssClass": "custom-hotspot-component",
-                    "pitch": -30,
+                    "pitch": -25,
                     "yaw": 110,
                     "type": "scene",
                     "text": "Walk",
@@ -649,6 +649,44 @@ viewer = pannellum.viewer('panorama', {
             "type": "equirectangular",
             // "panorama": api_endpoint + "/" + room_name ,
             "panorama": api_endpoint + "/Space3up",
+            "hotSpots": [
+                {
+                    "cssClass": "custom-hotspot-component",
+                    "pitch": -19,
+                    "yaw": -70,
+                    "type": "scene",
+                    "text": "Walk",
+                    "sceneId": "Space2up",
+                },
+                {
+                    "cssClass": "custom-hotspot-component",
+                    "pitch": -35,
+                    "yaw": 60,
+                    "type": "scene",
+                    "text": "Walk",
+                    "sceneId": "Space4up",
+                }
+            ]
+        },
+        "Space4up": {
+            "title": "scene 4",
+            "cssClass": "title-background-color",
+            "hfov": 300,
+            "pitch": -5,
+            "yaw": -10, //(da dx a sx)
+            "type": "equirectangular",
+            // "panorama": api_endpoint + "/" + room_name ,
+            "panorama": api_endpoint + "/Space4up",
+            "hotSpots": [
+                {
+                    "cssClass": "custom-hotspot-component",
+                    "pitch": -25,
+                    "yaw": -115,
+                    "type": "scene",
+                    "text": "Walk",
+                    "sceneId": "Space3up",
+                }
+            ]
         }
         }
        
