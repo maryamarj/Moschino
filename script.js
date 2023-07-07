@@ -165,7 +165,7 @@ viewer = pannellum.viewer('panorama', {
             ]
         },
         "Space1": {
-            "title": "Space1",
+            "title": "scene 1",
             "cssClass": "title-background-color",
             "hfov": 500,
             "pitch": 0,
@@ -201,7 +201,7 @@ viewer = pannellum.viewer('panorama', {
             ]
         },
         "Space2": {
-            "title": "Space2",
+            "title": "scene 2",
             "cssClass": "title-background-color",
             "hfov": 300,
             "pitch": -5,
@@ -237,7 +237,7 @@ viewer = pannellum.viewer('panorama', {
             ]
         },
         "Space3": {
-            "title": "Space3",
+            "title": "scene 3",
             "cssClass": "title-background-color",
             "hfov": 300,
             "pitch": -5,
@@ -281,7 +281,7 @@ viewer = pannellum.viewer('panorama', {
             ]
         },
         "Space4": {
-            "title": "Space4",
+            "title": "scene 4",
             "cssClass": "title-background-color",
             "hfov": 300,
             "pitch": -5,
@@ -325,7 +325,7 @@ viewer = pannellum.viewer('panorama', {
             ]
         },
         "Space5": {
-            "title": "Space5",
+            "title": "scene 5",
             "cssClass": "title-background-color",
             "hfov": 300,
             "pitch": -5,
@@ -353,7 +353,7 @@ viewer = pannellum.viewer('panorama', {
             ]
         },
         "Space6": {
-            "title": "Space6",
+            "title": "scene 6",
             "cssClass": "title-background-color",
             "hfov": 300,
             "pitch": -5,
@@ -381,7 +381,7 @@ viewer = pannellum.viewer('panorama', {
             ]
         },
         "Space7": {
-            "title": "Space7",
+            "title": "scene 7",
             "cssClass": "title-background-color",
             "hfov": 300,
             "pitch": -5,
@@ -409,7 +409,7 @@ viewer = pannellum.viewer('panorama', {
             ]
         },
         "Space8": {
-            "title": "Space8",
+            "title": "scene 8",
             "cssClass": "title-background-color",
             "hfov": 300,
             "pitch": -5,
@@ -437,7 +437,7 @@ viewer = pannellum.viewer('panorama', {
             ] 
         },
         "Space9": {
-            "title": "Space9",
+            "title": "scene 9",
             "cssClass": "title-background-color",
             "hfov": 300,
             "pitch": -5,
@@ -465,7 +465,7 @@ viewer = pannellum.viewer('panorama', {
             ]
         },
         "Space10": {
-            "title": "Space10",
+            "title": "scene 10",
             "cssClass": "title-background-color",
             "hfov": 300,
             "pitch": -5,
@@ -501,7 +501,7 @@ viewer = pannellum.viewer('panorama', {
             ]
         },
         "Space11": {
-            "title": "Space11",
+            "title": "scene 11",
             "cssClass": "title-background-color",
             "hfov": 300,
             "pitch": -5,
@@ -537,7 +537,7 @@ viewer = pannellum.viewer('panorama', {
             ]
         },
         "Space13": {
-            "title": "Space13",
+            "title": "scene 13",
             "cssClass": "title-background-color",
             "hfov": 300,
             "pitch": -5,
@@ -565,7 +565,7 @@ viewer = pannellum.viewer('panorama', {
             ]
         },
         "Space12": {
-            "title": "Space12",
+            "title": "scene 12",
             "cssClass": "title-background-color",
             "hfov": 300,
             "pitch": -5,
@@ -585,7 +585,7 @@ viewer = pannellum.viewer('panorama', {
             ]
         },
         "Space1up": {
-            "title": "Space1up",
+            "title": "scene 1",
             "cssClass": "title-background-color",
             "hfov": 300,
             "pitch": -5,
@@ -613,7 +613,7 @@ viewer = pannellum.viewer('panorama', {
             ]
         },
         "Space2up": {
-            "title": "Space2up",
+            "title": "scene 2",
             "cssClass": "title-background-color",
             "hfov": 300,
             "pitch": -5,
@@ -629,8 +629,26 @@ viewer = pannellum.viewer('panorama', {
                     "type": "scene",
                     "text": "Walk",
                     "sceneId": "Space1up",
+                },
+                {
+                    "cssClass": "custom-hotspot-component",
+                    "pitch": -30,
+                    "yaw": 110,
+                    "type": "scene",
+                    "text": "Walk",
+                    "sceneId": "Space3up", 
                 }
             ]
+        },
+        "Space3up": {
+            "title": "scene 3",
+            "cssClass": "title-background-color",
+            "hfov": 300,
+            "pitch": -5,
+            "yaw": -10, //(da dx a sx)
+            "type": "equirectangular",
+            // "panorama": api_endpoint + "/" + room_name ,
+            "panorama": api_endpoint + "/Space3up",
         }
         }
        
