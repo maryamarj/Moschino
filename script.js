@@ -187,7 +187,7 @@ viewer = pannellum.viewer('panorama', {
                     "pitch": -25,
                     "yaw": 73,
                     "type": "scene",
-                    "text": "Go to Space2",
+                    "text": "Walk",
                     "sceneId": "Space2", 
                 },
                 {
@@ -195,7 +195,7 @@ viewer = pannellum.viewer('panorama', {
                     "pitch": -25,
                     "yaw": -155,
                     "type": "scene",
-                    "text": "Go to Space8",
+                    "text": "Walk",
                     "sceneId": "Space8",
                 }
             ]
@@ -215,7 +215,7 @@ viewer = pannellum.viewer('panorama', {
                     "pitch": -32,
                     "yaw": -9,
                     "type": "scene",
-                    "text": "Go back to Space1",
+                    "text": "Walk",
                     "sceneId": "Space1",
                 },
                 {
@@ -231,7 +231,7 @@ viewer = pannellum.viewer('panorama', {
                     "pitch": -30,
                     "yaw": -160,
                     "type": "scene",
-                    "text": "Go to Space3",
+                    "text": "Walk",
                     "sceneId": "Space3",
                 },
             ]
@@ -251,7 +251,7 @@ viewer = pannellum.viewer('panorama', {
                     "pitch": -15,
                     "yaw": -173,
                     "type": "scene",
-                    "text": "Go back to Space2",
+                    "text": "Walk",
                     "sceneId": "Space2",
                 },
                 {
@@ -259,7 +259,7 @@ viewer = pannellum.viewer('panorama', {
                     "pitch": -18,
                     "yaw": 147,
                     "type": "scene",
-                    "text": "Go back to Space1",
+                    "text": "Walk",
                     "sceneId": "Space1",
                 },
                 {
@@ -275,7 +275,7 @@ viewer = pannellum.viewer('panorama', {
                     "pitch": -15,
                     "yaw": -25,
                     "type": "scene",
-                    "text": "Go to Space4",
+                    "text": "Walk",
                     "sceneId": "Space4",
                 }
             ]
@@ -295,7 +295,7 @@ viewer = pannellum.viewer('panorama', {
                     "pitch": -15,
                     "yaw": -145,
                     "type": "scene",
-                    "text": "Go back to Space3",
+                    "text": "Walk",
                     "sceneId": "Space3", 
                 },
                 {
@@ -303,7 +303,7 @@ viewer = pannellum.viewer('panorama', {
                     "pitch": -20,
                     "yaw": 50,
                     "type": "scene",
-                    "text": "Go to Space5",
+                    "text": "Walk",
                     "sceneId": "Space5", 
                 },
                 {
@@ -311,8 +311,16 @@ viewer = pannellum.viewer('panorama', {
                     "pitch": -10,
                     "yaw": 115,
                     "type": "scene",
-                    "text": "Go to Space10",
+                    "text": "Walk",
                     "sceneId": "Space10", 
+                },
+                {
+                    "cssClass": "custom-hotspot-component",
+                    "pitch": -5,
+                    "yaw": 5,
+                    "type": "scene",
+                    "text": "Go upstairs",
+                    "sceneId": "Space1up",
                 }
             ]
         },
@@ -331,7 +339,7 @@ viewer = pannellum.viewer('panorama', {
                     "pitch": -18,
                     "yaw": -180,
                     "type": "scene",
-                    "text": "Go back to Space4",
+                    "text": "Walk",
                     "sceneId": "Space4", 
                 },
                 {
@@ -339,7 +347,7 @@ viewer = pannellum.viewer('panorama', {
                     "pitch": -13,
                     "yaw": 155,
                     "type": "scene",
-                    "text": "Go  to Space6",
+                    "text": "Walk",
                     "sceneId": "Space6",   
                 }
             ]
@@ -359,7 +367,7 @@ viewer = pannellum.viewer('panorama', {
                     "pitch": -16,
                     "yaw": 28,
                     "type": "scene",
-                    "text": "Go back to Space5",
+                    "text": "Walk",
                     "sceneId": "Space5",   
                 },
                 {
@@ -367,7 +375,7 @@ viewer = pannellum.viewer('panorama', {
                     "pitch": -20,
                     "yaw": -165,
                     "type": "scene",
-                    "text": "Go to Space7",
+                    "text": "Walk",
                     "sceneId": "Space7",
                 }
             ]
@@ -387,7 +395,7 @@ viewer = pannellum.viewer('panorama', {
                     "pitch": -25,
                     "yaw": 26,
                     "type": "scene",
-                    "text": "Go back to Space6",
+                    "text": "Walk",
                     "sceneId": "Space6",  
                 },
                 {
@@ -395,7 +403,7 @@ viewer = pannellum.viewer('panorama', {
                     "pitch": -20,
                     "yaw": 170,
                     "type": "scene",
-                    "text": "Go back to Space1",
+                    "text": "Walk",
                     "sceneId": "Space1",
                 }
             ]
@@ -415,7 +423,7 @@ viewer = pannellum.viewer('panorama', {
                     "pitch": -25,
                     "yaw": 33,
                     "type": "scene",
-                    "text": "Go back to Space1",
+                    "text": "Walk",
                     "sceneId": "Space1",  
                 },
                 {
@@ -423,7 +431,7 @@ viewer = pannellum.viewer('panorama', {
                     "pitch": -25,
                     "yaw": -160,
                     "type": "scene",
-                    "text": "Go to Space9",
+                    "text": "Walk",
                     "sceneId": "Space9",
                 }
             ] 
@@ -443,7 +451,7 @@ viewer = pannellum.viewer('panorama', {
                     "pitch": -25,
                     "yaw": -160,
                     "type": "scene",
-                    "text": "Go back to Space8",
+                    "text": "Walk",
                     "sceneId": "Space8",
                 },
                 {
@@ -451,7 +459,7 @@ viewer = pannellum.viewer('panorama', {
                     "pitch": -20,
                     "yaw": -15,
                     "type": "scene",
-                    "text": "Go to Space10",
+                    "text": "Walk",
                     "sceneId": "Space10",
                 }
             ]
@@ -471,7 +479,7 @@ viewer = pannellum.viewer('panorama', {
                     "pitch": -20,
                     "yaw": 160,
                     "type": "scene",
-                    "text": "Go back to Space9",
+                    "text": "Walk",
                     "sceneId": "Space9",
                 },
                 {
@@ -479,7 +487,7 @@ viewer = pannellum.viewer('panorama', {
                     "pitch": -20,
                     "yaw": -33,
                     "type": "scene",
-                    "text": "Go to Space11",
+                    "text": "Walk",
                     "sceneId": "Space11",
                 },
                 {
@@ -487,7 +495,7 @@ viewer = pannellum.viewer('panorama', {
                     "pitch": -10,
                     "yaw": -110,
                     "type": "scene",
-                    "text": "Go to Space4",
+                    "text": "Walk",
                     "sceneId": "Space4",
                 }
             ]
@@ -507,7 +515,7 @@ viewer = pannellum.viewer('panorama', {
                     "pitch": -20,
                     "yaw": 160,
                     "type": "scene",
-                    "text": "Go back to Space10",
+                    "text": "Walk",
                     "sceneId": "Space10",  
                 },
                 {
@@ -515,7 +523,7 @@ viewer = pannellum.viewer('panorama', {
                     "pitch": -20,
                     "yaw": 10,
                     "type": "scene",
-                    "text": "Go to Space13",
+                    "text": "Walk",
                     "sceneId": "Space13", 
                 },
                 {
@@ -523,7 +531,7 @@ viewer = pannellum.viewer('panorama', {
                     "pitch": -15,
                     "yaw": -20,
                     "type": "scene",
-                    "text": "Go to Space12",
+                    "text": "Walk",
                     "sceneId": "Space12", 
                 }
             ]
@@ -543,7 +551,7 @@ viewer = pannellum.viewer('panorama', {
                     "pitch": -28,
                     "yaw": -80,
                     "type": "scene",
-                    "text": "Go back to Space11",
+                    "text": "Walk",
                     "sceneId": "Space11",
                 },
                 {
@@ -551,7 +559,7 @@ viewer = pannellum.viewer('panorama', {
                     "pitch": -23,
                     "yaw": 0,
                     "type": "scene",
-                    "text": "Go to Space12",
+                    "text": "Walk",
                     "sceneId": "Space12", 
                 }
             ]
@@ -571,8 +579,56 @@ viewer = pannellum.viewer('panorama', {
                     "pitch": -10,
                     "yaw": 155,
                     "type": "scene",
-                    "text": "Go back to Space11",
+                    "text": "Walk",
                     "sceneId": "Space11",
+                }
+            ]
+        },
+        "Space1up": {
+            "title": "Space1up",
+            "cssClass": "title-background-color",
+            "hfov": 300,
+            "pitch": -5,
+            "yaw": -10, //(da dx a sx)
+            "type": "equirectangular",
+            // "panorama": api_endpoint + "/" + room_name ,
+            "panorama": api_endpoint + "/Space1up",
+            "hotSpots": [
+                {
+                    "cssClass": "custom-hotspot-component",
+                    "pitch": -40,
+                    "yaw": -120,
+                    "type": "scene",
+                    "text": "Go downstairs",
+                    "sceneId": "Space4",
+                },
+                {
+                    "cssClass": "custom-hotspot-component",
+                    "pitch": -25,
+                    "yaw": 55,
+                    "type": "scene",
+                    "text": "Walk",
+                    "sceneId": "Space2up",  
+                }
+            ]
+        },
+        "Space2up": {
+            "title": "Space2up",
+            "cssClass": "title-background-color",
+            "hfov": 300,
+            "pitch": -5,
+            "yaw": -10, //(da dx a sx)
+            "type": "equirectangular",
+            // "panorama": api_endpoint + "/" + room_name ,
+            "panorama": api_endpoint + "/Space2up",
+            "hotSpots": [
+                {
+                    "cssClass": "custom-hotspot-component",
+                    "pitch": -23,
+                    "yaw": -100,
+                    "type": "scene",
+                    "text": "Walk",
+                    "sceneId": "Space1up",
                 }
             ]
         }
