@@ -685,6 +685,154 @@ viewer = pannellum.viewer('panorama', {
                     "type": "scene",
                     "text": "Walk",
                     "sceneId": "Space3up",
+                },
+                {
+                    "cssClass": "custom-hotspot-component",
+                    "pitch": -30,
+                    "yaw": 80,
+                    "type": "scene",
+                    "text": "Walk",
+                    "sceneId": "Space5up", 
+                },
+                {
+                    "cssClass": "custom-hotspot-component",
+                    "pitch": -27,
+                    "yaw": -23,
+                    "type": "scene",
+                    "text": "Walk",
+                    "sceneId": "Space7up", 
+                }
+            ]
+        },
+        "Space5up": {
+            "title": "scene 5",
+            "cssClass": "title-background-color",
+            "hfov": 300,
+            "pitch": -5,
+            "yaw": -10, //(da dx a sx)
+            "type": "equirectangular",
+            // "panorama": api_endpoint + "/" + room_name ,
+            "panorama": api_endpoint + "/Space5up",
+            "hotSpots": [
+                {
+                    "cssClass": "custom-hotspot-component",
+                    "pitch": -35,
+                    "yaw": -180,
+                    "type": "scene",
+                    "text": "Walk",
+                    "sceneId": "Space4up", 
+                },
+                {
+                    "cssClass": "custom-hotspot-component",
+                    "pitch": -30,
+                    "yaw": -15,
+                    "type": "scene",
+                    "text": "Walk",
+                    "sceneId": "Space6up"
+                }
+            ]
+        },
+        "Space6up": {
+            "title": "scene 6",
+            "cssClass": "title-background-color",
+            "hfov": 300,
+            "pitch": -5,
+            "yaw": -10, //(da dx a sx)
+            "type": "equirectangular",
+            // "panorama": api_endpoint + "/" + room_name ,
+            "panorama": api_endpoint + "/Space6up",
+            "hotSpots": [
+                {
+                    "cssClass": "custom-hotspot-component",
+                    "pitch": -30,
+                    "yaw": -60,
+                    "type": "scene",
+                    "text": "Walk",
+                    "sceneId": "Space5up", 
+                }
+            ]
+        },
+        "Space7up": {
+            "title": "scene 7",
+            "cssClass": "title-background-color",
+            "hfov": 300,
+            "pitch": -5,
+            "yaw": -10, //(da dx a sx)
+            "type": "equirectangular",
+            // "panorama": api_endpoint + "/" + room_name ,
+            "panorama": api_endpoint + "/Space7up",
+            "hotSpots": [
+                {
+                    "cssClass": "custom-hotspot-component",
+                    "pitch": -20,
+                    "yaw": 60,
+                    "type": "scene",
+                    "text": "Walk",
+                    "sceneId": "Space8up",
+                },
+                {
+                    "cssClass": "custom-hotspot-component",
+                    "pitch": -20,
+                    "yaw": -80,
+                    "type": "scene",
+                    "text": "Walk",
+                    "sceneId": "Space4up",
+                }
+            ]
+        },
+        "Space8up": {
+            "title": "scene 8",
+            "cssClass": "title-background-color",
+            "hfov": 300,
+            "pitch": -5,
+            "yaw": -10, //(da dx a sx)
+            "type": "equirectangular",
+            // "panorama": api_endpoint + "/" + room_name ,
+            "panorama": api_endpoint + "/Space8up",
+            "hotSpots": [
+                {
+                    "cssClass": "custom-hotspot-component",
+                    "pitch": -20,
+                    "yaw": -1,
+                    "type": "scene",
+                    "text": "Walk",
+                    "sceneId": "Space1up", 
+                },
+                {
+                    "cssClass": "custom-hotspot-component",
+                    "pitch": -17,
+                    "yaw": 60,
+                    "type": "scene",
+                    "text": "Walk",
+                    "sceneId": "Space9up", 
+                },
+                {
+                    "cssClass": "custom-hotspot-component",
+                    "pitch": -15,
+                    "yaw": -115,
+                    "type": "scene",
+                    "text": "Walk",
+                    "sceneId": "Space7up",
+                }
+            ]
+        },
+        "Space9up": {
+            "title": "scene 9",
+            "cssClass": "title-background-color",
+            "hfov": 300,
+            "pitch": -5,
+            "yaw": -10, //(da dx a sx)
+            "type": "equirectangular",
+            // "panorama": api_endpoint + "/" + room_name ,
+            "panorama": api_endpoint + "/Space9up",
+            "hotSpots": [
+                {
+                    "cssClass": "custom-hotspot-component",
+                    "pitch": -15,
+                    "yaw": 125,
+                    "type": "scene",
+                    "text": "Walk",
+                    "sceneId": "Space8up",  
                 }
             ]
         }
