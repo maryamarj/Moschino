@@ -54,6 +54,14 @@ viewer = pannellum.viewer('panorama', {
                     "text": "Enter the shop",
                     "sceneId": "Space1",
                 },
+                {
+                    "cssClass": "custom-hotspot-component",
+                    "pitch": 10,
+                    "yaw": -113,
+                    "type": "scene",
+                    "text": "Enter the shop",
+                    "sceneId": "Space2up",
+                },
             ]
         },
         "ShopWindowSX": {
@@ -234,6 +242,22 @@ viewer = pannellum.viewer('panorama', {
                     "text": "Walk",
                     "sceneId": "Space3",
                 },
+                {
+                    "cssClass": "custom-hotspot-component",
+                    "pitch": -5,
+                    "yaw": 147,
+                    "type": "scene",
+                    "text": "BAGS SS23",
+                    // "sceneId": "Space3",
+                },
+                {
+                    "cssClass": "custom-hotspot-component",
+                    "pitch": 19,
+                    "yaw": 170,
+                    "type": "scene",
+                    "text": "SHOES SS23",
+                    // "sceneId": "Space3",
+                },
             ]
         },
         "Space3": {
@@ -277,6 +301,20 @@ viewer = pannellum.viewer('panorama', {
                     "type": "scene",
                     "text": "Walk",
                     "sceneId": "Space4",
+                },
+                {
+                    "cssClass": "custom-hotspot-component",
+                    "pitch": -20,
+                    "yaw": -98,
+                    "type": "scene",
+                    "text": "BAGS SS23",
+                },
+                {
+                    "cssClass": "custom-hotspot-component",
+                    "pitch": 10,
+                    "yaw": -147,
+                    "type": "scene",
+                    "text": "SHOES SS23",
                 }
             ]
         },
@@ -321,6 +359,20 @@ viewer = pannellum.viewer('panorama', {
                     "type": "scene",
                     "text": "Go upstairs",
                     "sceneId": "Space1up",
+                },
+                {
+                    "cssClass": "custom-hotspot-component",
+                    "pitch": 0,
+                    "yaw": -60,
+                    "type": "scene",
+                    "text": "BAGS SS23",
+                },
+                {
+                    "cssClass": "custom-hotspot-component",
+                    "pitch": 15,
+                    "yaw": -92,
+                    "type": "scene",
+                    "text": "SHOES SS23",
                 }
             ]
         },
@@ -349,6 +401,13 @@ viewer = pannellum.viewer('panorama', {
                     "type": "scene",
                     "text": "Walk",
                     "sceneId": "Space6",   
+                },
+                {
+                    "cssClass": "custom-hotspot-component",
+                    "pitch": 8,
+                    "yaw": 90,
+                    "type": "scene",
+                    "text": "SUNGLASSES SS23",
                 }
             ]
         },
@@ -377,6 +436,13 @@ viewer = pannellum.viewer('panorama', {
                     "type": "scene",
                     "text": "Walk",
                     "sceneId": "Space7",
+                },
+                {
+                    "cssClass": "custom-hotspot-component",
+                    "pitch": 15,
+                    "yaw": 113,
+                    "type": "scene",
+                    "text": "ACCESSORIES SS23",
                 }
             ]
         },
@@ -398,13 +464,28 @@ viewer = pannellum.viewer('panorama', {
                     "text": "Walk",
                     "sceneId": "Space6",  
                 },
+                // {
+                //     "cssClass": "custom-hotspot-component",
+                //     "pitch": -20,
+                //     "yaw": 170,
+                //     "type": "scene",
+                //     "text": "Walk",
+                //     "sceneId": "Space1",
+                // },
                 {
                     "cssClass": "custom-hotspot-component",
-                    "pitch": -20,
-                    "yaw": 170,
+                    "pitch": -18,
+                    "yaw": 150,
                     "type": "scene",
                     "text": "Walk",
-                    "sceneId": "Space1",
+                    "sceneId": "Space8",
+                },
+                {
+                    "cssClass": "custom-hotspot-component",
+                    "pitch": -15,
+                    "yaw": 103,
+                    "type": "scene",
+                    "text": "BELTS SS23"
                 }
             ]
         },
@@ -461,6 +542,13 @@ viewer = pannellum.viewer('panorama', {
                     "type": "scene",
                     "text": "Walk",
                     "sceneId": "Space10",
+                },
+                {
+                    "cssClass": "custom-hotspot-component",
+                    "pitch": 0,
+                    "yaw": 18,
+                    "type": "scene",
+                    "text": "SS23 WOMAN COLLECTION",
                 }
             ]
         },
@@ -497,6 +585,20 @@ viewer = pannellum.viewer('panorama', {
                     "type": "scene",
                     "text": "Walk",
                     "sceneId": "Space4",
+                },
+                {
+                    "cssClass": "custom-hotspot-component",
+                    "pitch": -20,
+                    "yaw": 63,
+                    "type": "scene",
+                    "text": "SS23 WOMAN COLLECTION"
+                },
+                {
+                    "cssClass": "custom-hotspot-component",
+                    "pitch": 17,
+                    "yaw": 53,
+                    "type": "scene",
+                    "text": "BAGS SS23"
                 }
             ]
         },
@@ -533,6 +635,13 @@ viewer = pannellum.viewer('panorama', {
                     "type": "scene",
                     "text": "Walk",
                     "sceneId": "Space12", 
+                },
+                {
+                    "cssClass": "custom-hotspot-component",
+                    "pitch": 10,
+                    "yaw": 50,
+                    "type": "scene",
+                    "text": "SS23 WOMAN COLLECTION"
                 }
             ]
         },
@@ -581,6 +690,13 @@ viewer = pannellum.viewer('panorama', {
                     "type": "scene",
                     "text": "Walk",
                     "sceneId": "Space11",
+                },
+                {
+                    "cssClass": "custom-hotspot-component",
+                    "pitch": 13,
+                    "yaw": -40,
+                    "type": "scene",
+                    "text": "SHOES SS23"
                 }
             ]
         },
@@ -637,6 +753,27 @@ viewer = pannellum.viewer('panorama', {
                     "type": "scene",
                     "text": "Walk",
                     "sceneId": "Space3up", 
+                },
+                {
+                    "cssClass": "custom-hotspot-component",
+                    "pitch": 19,
+                    "yaw": -140,
+                    "type": "scene",
+                    "text": "SHOES SS23" 
+                },
+                {
+                    "cssClass": "custom-hotspot-component",
+                    "pitch": 16,
+                    "yaw": 72,
+                    "type": "scene",
+                    "text": "BELTS SS23" 
+                },
+                {
+                    "cssClass": "custom-hotspot-component",
+                    "pitch": 8,
+                    "yaw": -62,
+                    "type": "scene",
+                    "text": "ACCESSORIES SS23" 
                 }
             ]
         },
@@ -665,6 +802,13 @@ viewer = pannellum.viewer('panorama', {
                     "type": "scene",
                     "text": "Walk",
                     "sceneId": "Space4up",
+                },
+                {
+                    "cssClass": "custom-hotspot-component",
+                    "pitch": -5,
+                    "yaw": 166,
+                    "type": "scene",
+                    "text": "SHOES SS23" 
                 }
             ]
         },
@@ -701,6 +845,20 @@ viewer = pannellum.viewer('panorama', {
                     "type": "scene",
                     "text": "Walk",
                     "sceneId": "Space7up", 
+                },
+                {
+                    "cssClass": "custom-hotspot-component",
+                    "pitch": 17,
+                    "yaw": 150,
+                    "type": "scene",
+                    "text": "MAN COLLECTION SS23" 
+                },
+                {
+                    "cssClass": "custom-hotspot-component",
+                    "pitch": -5,
+                    "yaw": 94,
+                    "type": "scene",
+                    "text": "KIDS COLLECTION SS23" 
                 }
             ]
         },
@@ -729,6 +887,13 @@ viewer = pannellum.viewer('panorama', {
                     "type": "scene",
                     "text": "Walk",
                     "sceneId": "Space6up"
+                },
+                {
+                    "cssClass": "custom-hotspot-component",
+                    "pitch": 30,
+                    "yaw": -90,
+                    "type": "scene",
+                    "text": "KIDS COLLECTION SS23" 
                 }
             ]
         },
@@ -749,6 +914,20 @@ viewer = pannellum.viewer('panorama', {
                     "type": "scene",
                     "text": "Walk",
                     "sceneId": "Space5up", 
+                },
+                {
+                    "cssClass": "custom-hotspot-component",
+                    "pitch": -2,
+                    "yaw": 165,
+                    "type": "scene",
+                    "text": "BABY COLLECTION SS23" 
+                },
+                {
+                    "cssClass": "custom-hotspot-component",
+                    "pitch": 22,
+                    "yaw": 19,
+                    "type": "scene",
+                    "text": "TEENS COLLECTION SS23" 
                 }
             ]
         },
@@ -777,6 +956,13 @@ viewer = pannellum.viewer('panorama', {
                     "type": "scene",
                     "text": "Walk",
                     "sceneId": "Space4up",
+                },
+                {
+                    "cssClass": "custom-hotspot-component",
+                    "pitch": 15,
+                    "yaw": 130,
+                    "type": "scene",
+                    "text": "MAN COLLECTION SS23" 
                 }
             ]
         },
@@ -813,6 +999,13 @@ viewer = pannellum.viewer('panorama', {
                     "type": "scene",
                     "text": "Walk",
                     "sceneId": "Space7up",
+                },
+                {
+                    "cssClass": "custom-hotspot-component",
+                    "pitch": 15,
+                    "yaw": 130,
+                    "type": "scene",
+                    "text": "MAN COLLECTION SS23" 
                 }
             ]
         },
@@ -833,6 +1026,13 @@ viewer = pannellum.viewer('panorama', {
                     "type": "scene",
                     "text": "Walk",
                     "sceneId": "Space8up",  
+                },
+                {
+                    "cssClass": "custom-hotspot-component",
+                    "pitch": 8,
+                    "yaw": 140,
+                    "type": "scene",
+                    "text": "MAN COLLECTION SS23" 
                 }
             ]
         }
