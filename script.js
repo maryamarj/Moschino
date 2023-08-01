@@ -54,14 +54,14 @@ viewer = pannellum.viewer('panorama', {
                     "text": "Enter the shop",
                     "sceneId": "Space1",
                 },
-                {
-                    "cssClass": "custom-hotspot-component",
-                    "pitch": 10,
-                    "yaw": -113,
-                    "type": "scene",
-                    "text": "Enter the shop",
-                    "sceneId": "Space2up",
-                },
+                // {
+                //     "cssClass": "custom-hotspot-component",
+                //     "pitch": 10,
+                //     "yaw": -113,
+                //     "type": "scene",
+                //     "text": "Enter the shop",
+                //     "sceneId": "Space2up",
+                // },
             ]
         },
         "ShopWindowSX": {
