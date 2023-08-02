@@ -60,7 +60,7 @@ viewer = pannellum.viewer('panorama', {
                 //     "yaw": -113,
                 //     "type": "scene",
                 //     "text": "Enter the shop",
-                //     "sceneId": "Space2up",
+                //     "sceneId": "Space2",
                 // },
             ]
         },
@@ -248,15 +248,24 @@ viewer = pannellum.viewer('panorama', {
                     "yaw": 147,
                     "type": "scene",
                     "text": "BAGS SS23",
+                    
                     // "sceneId": "Space3",
                 },
                 {
-                    "cssClass": "custom-hotspot-component",
+                    "cssClass": "hotspot-changeroom",
                     "pitch": 19,
                     "yaw": 170,
                     "type": "scene",
                     "text": "SHOES SS23",
                     // "sceneId": "Space3",
+                },
+                {
+                    "cssClass": "custom-hotspot-component",
+                    "pitch": -18,
+                    "yaw": -47,
+                    "type": "scene",
+                    "text": "Walk",
+                    "sceneId": "Space8",
                 },
             ]
         },
