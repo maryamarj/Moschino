@@ -734,11 +734,11 @@ viewer = pannellum.viewer('panorama', {
                     "sceneId": "Space10",
                 },
                 {
-                    "cssClass": "hotspot-woman",
+                    "cssClass": "hotspot-coords",
                     "pitch": 12,
                     "yaw": 28,
                     "type": "scene",
-                    "text": "SS23 WOMAN COLLECTION",
+                    "text": "SS23 CO-ORDS",
                     "URL": "https://www.moschino.com/it_it/moschino/sale/donna/completi.html"
                 },
                 {
