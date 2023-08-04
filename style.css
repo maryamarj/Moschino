@@ -26,10 +26,10 @@
     background: rgba(255, 255, 255, 0.551); 
 }
 
-#custom-arrow-component{
+/* #custom-arrow-component{
     width: 20px;
     height: 20px;
-}
+} */
 
 .custom-hotspot-component{
     height: 25px;
@@ -48,18 +48,379 @@
     background-color:rgb(255, 255, 255);
 }
 
-.hotspot-changeroom{
+.hotspot-baby{
+    height: 35px;
+    width: 35px;
+    background-color: rgba(255, 255, 255, 0.128);
+    border-radius: 50%;
+    background-image: url("./assets/marker_baby.png");
+    background-size: cover;
+}
+
+.hotspot-baby:hover{
+    height: 35px;
+    width: 35px; 
+    background-color: rgba(255, 255, 255, 0.551);
+}
+
+.hotspot-bagsW{
+    height: 35px;
+    width: 35px;
+    background-color: rgba(255, 255, 255, 0.128);
+    border-radius: 50%;
+    background-image: url("./assets/marker_bagsW.png");
+    background-size: cover;
+}
+
+.hotspot-bagsW:hover{
+    height: 35px;
+    width: 35px; 
+    background-color: rgba(255, 255, 255, 0.551);
+}
+
+.hotspot-bagsM{
+    height: 35px;
+    width: 35px;
+    background-color: rgba(255, 255, 255, 0.128);
+    border-radius: 50%;
+    background-image: url("./assets/marker_bagsM.png");
+    background-size: cover;
+}
+
+.hotspot-bagsM:hover{
+    height: 35px;
+    width: 35px; 
+    background-color: rgba(255, 255, 255, 0.551);
+}
+
+.hotspot-belts{
+    height: 35px;
+    width: 35px;
+    background-color: rgba(255, 255, 255, 0.128);
+    border-radius: 50%;
+    background-image: url("./assets/marker_belts.png");
+    background-size: cover;
+}
+
+.hotspot-belts:hover{
+    height: 35px;
+    width: 35px; 
+    background-color: rgba(255, 255, 255, 0.551);
+}
+
+.hotspot-blazer{
+    height: 35px;
+    width: 35px;
+    background-color: rgba(255, 255, 255, 0.128);
+    border-radius: 50%;
+    background-image: url("./assets/marker_blazer.png");
+    background-size: cover;
+}
+
+.hotspot-blazer:hover{
+    height: 35px;
+    width: 35px; 
+    background-color: rgba(255, 255, 255, 0.551);
+}
+
+.hotspot-coords{
+    height: 35px;
+    width: 35px;
+    background-color: rgba(255, 255, 255, 0.128);
+    border-radius: 50%;
+    background-image: url("./assets/marker_coords.png");
+    background-size: cover;
+}
+
+.hotspot-coords:hover{
+    height: 35px;
+    width: 35px; 
+    background-color: rgba(255, 255, 255, 0.551);
+}
+
+.hotspot-door{
+    height: 35px;
+    width: 35px;
+    background-color: rgba(255, 255, 255, 0.128);
+    border-radius: 50%;
+    background-image: url("./assets/marker_door.png");
+    background-size: cover;
+}
+
+.hotspot-door:hover{
+    height: 35px;
+    width: 35px; 
+    background-color: rgba(255, 255, 255, 0.551);
+}
+
+.hotspot-dress{
+    height: 35px;
+    width: 35px;
+    background-color: rgba(255, 255, 255, 0.128);
+    border-radius: 50%;
+    background-image: url("./assets/marker_dress.png");
+    background-size: cover;
+}
+
+.hotspot-dress:hover{
+    height: 35px;
+    width: 35px; 
+    background-color: rgba(255, 255, 255, 0.551);
+}
+
+.hotspot-fragrance-woman{
+    height: 35px;
+    width: 35px;
+    background-color: rgba(255, 255, 255, 0.128);
+    border-radius: 50%;
+    background-image: url("./assets/marker_fragrance.png");
+    background-size: cover;
+}
+
+.hotspot-fragrance-woman:hover{
+    height: 35px;
+    width: 35px; 
+    background-color: rgba(255, 255, 255, 0.551);
+}
+
+.hotspot-fragrance-man{
+    height: 35px;
+    width: 35px;
+    background-color: rgba(255, 255, 255, 0.128);
+    border-radius: 50%;
+    background-image: url("./assets/marker_fragrance.png");
+    background-size: cover;
+}
+
+.hotspot-fragrance-man:hover{
+    height: 35px;
+    width: 35px; 
+    background-color: rgba(255, 255, 255, 0.551);
+}
+
+.hotspot-kids{
+    height: 35px;
+    width: 35px;
+    background-color: rgba(255, 255, 255, 0.128);
+    border-radius: 50%;
+    background-image: url("./assets/marker_kids.png");
+    background-size: cover;
+}
+
+.hotspot-kids:hover{
+    height: 35px;
+    width: 35px; 
+    background-color: rgba(255, 255, 255, 0.551);
+}
+
+.hotspot-man{
+    height: 35px;
+    width: 35x;
+    background-color: rgba(255, 255, 255, 0.128);
+    border-radius: 50%;
+    background-image: url("./assets/marker_man.png");
+    background-size: cover;
+}
+
+.hotspot-man:hover{
+    height: 35px;
+    width: 35px; 
+    background-color: rgba(255, 255, 255, 0.551);
+}
+
+.hotspot-outerwear{
+    height: 35px;
+    width: 35px;
+    background-color: rgba(255, 255, 255, 0.128);
+    border-radius: 50%;
+    background-image: url("./assets/marker_outerwear.png");
+    background-size: cover;
+}
+
+.hotspot-outerwear:hover{
+    height: 35px;
+    width: 30px; 
+    background-color: rgba(255, 255, 255, 0.551);
+}
+
+.hotspot-right{
     height: 25px;
     width: 25px;
     background-color: rgba(255, 255, 255, 0.128);
     border-radius: 50%;
-    background-image: url("./assets/shoesW.png");
+    background-image: url("./assets/marker_right.png");
     background-size: cover;
 }
 
-.hotspot-changeroom:hover{
-    height: 30px;
-    width: 30px; 
+.hotspot-right:hover{
+    height: 25px;
+    width: 25px; 
+    background-color: rgba(255, 255, 255, 0.551);
+}
+
+.hotspot-shirt{
+    height: 35px;
+    width: 35px;
+    background-color: rgba(255, 255, 255, 0.128);
+    border-radius: 50%;
+    background-image: url("./assets/marker_shirt.png");
+    background-size: cover;
+}
+
+.hotspot-shirt:hover{
+    height: 35px;
+    width: 35px; 
+    background-color: rgba(255, 255, 255, 0.551);
+}
+
+.hotspot-shoesM{
+    height: 35px;
+    width: 35px;
+    background-color: rgba(255, 255, 255, 0.128);
+    border-radius: 50%;
+    background-image: url("./assets/marker_shoesM.png");
+    background-size: cover;
+}
+
+.hotspot-shoesM:hover{
+    height: 35px;
+    width: 35px; 
+    background-color: rgba(255, 255, 255, 0.551);
+}
+
+.hotspot-shoesW{
+    height: 35px;
+    width: 35px;
+    background-color: rgba(255, 255, 255, 0.128);
+    border-radius: 50%;
+    background-image: url("./assets/marker_shoesW.png");
+    background-size: cover;
+}
+
+.hotspot-shoesW:hover{
+    height: 35px;
+    width: 35px; 
+    background-color: rgba(255, 255, 255, 0.551);
+}
+
+
+.hotspot-sunglasses{
+    height: 35px;
+    width: 35px;
+    background-color: rgba(255, 255, 255, 0.128);
+    border-radius: 50%;
+    background-image: url("./assets/marker_sunglasses.png");
+    background-size: cover;
+}
+
+.hotspot-sunglasses:hover{
+    height: 35px;
+    width: 35px; 
+    background-color: rgba(255, 255, 255, 0.551);
+}
+
+.hotspot-sweatshirt{
+    height: 35px;
+    width: 35px;
+    background-color: rgba(255, 255, 255, 0.128);
+    border-radius: 50%;
+    background-image: url("./assets/marker_sweatshirt.png");
+    background-size: cover;
+}
+
+.hotspot-sweatshirt:hover{
+    height: 35px;
+    width: 35px; 
+    background-color: rgba(255, 255, 255, 0.551);
+}
+
+.hotspot-teenager{
+    height: 35px;
+    width: 35px;
+    background-color: rgba(255, 255, 255, 0.128);
+    border-radius: 50%;
+    background-image: url("./assets/marker_teenager.png");
+    background-size: cover;
+}
+
+.hotspot-teenager:hover{
+    height: 35px;
+    width: 35px; 
+    background-color: rgba(255, 255, 255, 0.551);
+}
+
+.hotspot-tie{
+    height: 35px;
+    width: 35px;
+    background-color: rgba(255, 255, 255, 0.128);
+    border-radius: 50%;
+    background-image: url("./assets/marker_tie.png");
+    background-size: cover;
+}
+
+.hotspot-tie:hover{
+    height: 35px;
+    width: 35px; 
+    background-color: rgba(255, 255, 255, 0.551);
+}
+
+.hotspot-tshirt{
+    height: 35px;
+    width: 35px;
+    background-color: rgba(255, 255, 255, 0.128);
+    border-radius: 50%;
+    background-image: url("./assets/marker_tshirt.png");
+    background-size: cover;
+}
+
+.hotspot-tshirt:hover{
+    height: 35px;
+    width: 35px; 
+    background-color: rgba(255, 255, 255, 0.551);
+}
+
+.hotspot-umbrella{
+    height: 35px;
+    width: 35px;
+    background-color: rgba(255, 255, 255, 0.128);
+    border-radius: 50%;
+    background-image: url("./assets/marker_umbrella.png");
+    background-size: cover;
+}
+
+.hotspot-umbrella:hover{
+    height: 35px;
+    width: 35px; 
+    background-color: rgba(255, 255, 255, 0.551);
+}
+
+.hotspot-up{
+    height: 25px;
+    width: 25px;
+    background-color: rgba(255, 255, 255, 0.128);
+    border-radius: 50%;
+    background-image: url("./assets/marker_up.png");
+    background-size: cover;
+}
+
+.hotspot-up:hover{
+    height: 25px;
+    width: 25px; 
+    background-color: rgba(255, 255, 255, 0.551);
+}
+
+.hotspot-woman{
+    height: 35px;
+    width: 35px;
+    background-color: rgba(255, 255, 255, 0.128);
+    border-radius: 50%;
+    background-image: url("./assets/marker_woman.png");
+    background-size: cover;
+}
+
+.hotspot-woman:hover{
+    height: 35px;
+    width: 35px; 
     background-color: rgba(255, 255, 255, 0.551);
 }
 
